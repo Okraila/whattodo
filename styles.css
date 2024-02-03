@@ -1,5 +1,14 @@
+* {
+    max-width:95%;
+}
+
 body {
     background-color:darkcyan;
+}
+
+input {
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 button{
@@ -24,7 +33,6 @@ p{
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    
 }
 
 li{
@@ -33,6 +41,7 @@ li{
     margin-bottom: 5px;
     justify-content: space-between;
     background-color:gray;
+    max-width:100%;
 }
 
 li:first-child{
