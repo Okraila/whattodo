@@ -25,7 +25,7 @@ const renderTodo = (items) => {
     })" ${item.completed?'checked': ''} />
     <label>
     <p class="${item.completed?'completed': ''}">${item.text}</p>
-    <button onclick="removeTodo(${item.id})">Видалити</button>
+    <button onclick="removeTodo(${item.id})" class="delete__btn">Видалити</button>
     </li>`
   })
   .join("")

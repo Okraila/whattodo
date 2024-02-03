@@ -7,33 +7,35 @@ body {
 }
 
 input {
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 52%;
 }
 
-button{
+.delete__btn{
     background-color: red;
     color:white;
     border-radius: 5px;
-    margin: 10px;
     border: 5px solid black;
+    margin-left:100%;
+}
+
+.website__title {
+    margin-left:51%;
 }
 
 .btn {
     background-color:green;
     border: 2px solid blueviolet;
+    margin-left:55%;
 }
 
 ul{
-    margin-bottom: 5px;
     list-style: none;
-    justify-content:center;
+    align-items:center;
 }
 
 p{
     font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left:50px;
 }
 
 li{
@@ -49,7 +51,26 @@ li:first-child{
     background-color:orange;
     border:4px dashed violet;
 }
+ 
+li:nth-child(2){
+    background-color:green;
+    border:3px dashed darkgreen;
+}
 
+li:nth-child(3){
+    background-color: lightblue;
+    border:2px dashed darkgreen;
+}
+
+li:nth-child(4){
+    background-color: darkgreen;
+    border:1px dashed lightblue;
+}
+
+li:last-child {
+    background-color:orange;
+    border:5px dashed lightgoldenrodyellow;
+}
 .completed {
     text-decoration: line-through 5px red;
 }
