@@ -1,0 +1,48 @@
+body {
+    background-color:darkcyan;
+}
+
+button{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.btn {
+    background-color:green;
+    border: 2px solid blueviolet;
+}
+
+ul{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+li{
+    display: flex;
+    border: 5px dashed orangered;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    background-color:gray;
+}
+
+li:first-child{
+    background-color:orange;
+    border:4px dashed violet;
+}
+
+.completed {
+    text-decoration: line-through 5px red;
+}
+
+
+
