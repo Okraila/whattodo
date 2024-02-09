@@ -15,7 +15,7 @@ input {
     color:white;
     border-radius: 5px;
     border: 5px solid black;
-    margin-left:20%;
+    margin-left:25%;
 }
 
 .website__title {
@@ -26,11 +26,14 @@ input {
     background-color:green;
     border: 2px solid blueviolet;
     margin-left:55%;
+    color:black;
 }
 
 ul{
     list-style: none;
     align-items:center;
+    margin-left:25%;
+    margin-right:25%;
 }
 
 p{
@@ -42,9 +45,10 @@ li{
     display: flex;
     border: 5px dashed orangered;
     margin-bottom: 5px;
-    justify-content: space-between;
+    align-items:center;
     background-color:gray;
     max-width:100%;
+    overflow:auto;
 }
 
 li:first-child{
